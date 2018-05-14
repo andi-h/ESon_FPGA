@@ -83,6 +83,15 @@
 !*.bmm
 !*.xmp
 
+!*.vh
+!*.hdf
+!*.a
+!*.project
+!*.cproject
+!*.sdkproject
+!Makefile
+!*.mss
+
 *.runs
 *.cache
 *.sim

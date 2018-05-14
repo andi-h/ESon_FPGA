@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Modules\HalfAdder.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\tb_main.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\TBHalfAdder.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\TBtop.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\FullAdder.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Adder.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\TBFullAdder.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\TBAdder.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Simulation\TBHalfAdder.h">
+      <Filter>Headerdatein</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation\TBtop.h">
+      <Filter>Headerdatein</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\Adder.h">
+      <Filter>Headerdatein</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\FullAdder.h">
+      <Filter>Headerdatein</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\HalfAdder.h">
+      <Filter>Headerdatein</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation\TBFullAdder.h">
+      <Filter>Headerdatein</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation\TBAdder.h">
+      <Filter>Headerdatein</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{506f0f53-6602-4f16-aa31-e2e4ca0b4634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{e1711de8-3cb4-4f6e-a8d5-162a210aedc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdatein">
+      <UniqueIdentifier>{5cff747c-e9fe-4132-8977-21ff8c3c481f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

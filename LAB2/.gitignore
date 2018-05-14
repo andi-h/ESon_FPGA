@@ -90,7 +90,11 @@
 !*.cproject
 !*.sdkproject
 !Makefile
+!makefile
 !*.mss
+!*.ld
+!*.make
+!*.index
 
 *.runs
 *.cache

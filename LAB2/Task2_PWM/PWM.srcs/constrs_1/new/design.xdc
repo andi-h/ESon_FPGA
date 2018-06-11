@@ -1,0 +1,10 @@
+set_property BITSTREAM.GENERAL.UNCONSTRAINEDPINS {Allow} [current_design]
+
+set_property -dict {PACKAGE_PIN T22 IOSTANDARD LVCMOS33} [get_ports {pwm_out_0[0]}]
+set_property -dict {PACKAGE_PIN T21 IOSTANDARD LVCMOS33} [get_ports {pwm_out_0[1]}]
+set_property -dict {PACKAGE_PIN U22 IOSTANDARD LVCMOS33} [get_ports {pwm_out_0[2]}]
+set_property -dict {PACKAGE_PIN U21 IOSTANDARD LVCMOS33} [get_ports {pwm_out_0[3]}]
+set_property -dict {PACKAGE_PIN V22 IOSTANDARD LVCMOS33} [get_ports {pwm_out_0[4]}]
+set_property -dict {PACKAGE_PIN W22 IOSTANDARD LVCMOS33} [get_ports {pwm_out_0[5]}]
+set_property -dict {PACKAGE_PIN U19 IOSTANDARD LVCMOS33} [get_ports {pwm_out_0[6]}]
+set_property -dict {PACKAGE_PIN U14 IOSTANDARD LVCMOS33} [get_ports {pwm_out_0[7]}]

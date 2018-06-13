@@ -8,9 +8,9 @@ entity xillydemo is
     -- For Vivado, delete the port declarations for PS_CLK, PS_PORB and
     -- PS_SRSTB, and uncomment their declarations as signals further below.
 
-    PS_CLK : IN std_logic;
-    PS_PORB : IN std_logic;
-    PS_SRSTB : IN std_logic;
+    -- PS_CLK : IN std_logic;
+    -- PS_PORB : IN std_logic;
+    -- PS_SRSTB : IN std_logic;
     clk_100 : IN std_logic;
     otg_oc : IN std_logic;
     PS_GPIO : INOUT std_logic_vector(55 DOWNTO 0);
@@ -270,9 +270,9 @@ architecture sample_arch of xillydemo is
   -- implementation, but has no practical significance, as these pads are
   -- completely unrelated to the FPGA bitstream.
 
-  -- signal PS_CLK :  std_logic;
-  -- signal PS_PORB :  std_logic;
-  -- signal PS_SRSTB :  std_logic;
+  signal PS_CLK :  std_logic;
+  signal PS_PORB :  std_logic;
+  signal PS_SRSTB :  std_logic;
   signal DDR_Addr : std_logic_vector(14 DOWNTO 0);
   signal DDR_BankAddr : std_logic_vector(2 DOWNTO 0);
   signal DDR_CAS_n : std_logic;
